@@ -30,7 +30,7 @@ class App extends React.Component{
     fetch(`https://love-calculator.p.rapidapi.com/getPercentage?fname=${this.state.firstName}&sname=${this.state.secondName}`, {
 	  "method": "GET",
 	  "headers": {
-		  "x-rapidapi-key": "59c54b434cmsh59b85e4954664bfp151522jsndaa24ebca962",
+		  "x-rapidapi-key": "your rapid api key",
 		  "x-rapidapi-host": "love-calculator.p.rapidapi.com"
 	  }
   }).then(response => {
